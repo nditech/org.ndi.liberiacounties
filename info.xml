@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<extension key="org.ndi.liberiacounties" type="module">
+  <file>liberiacounties</file>
+  <name>Liberia Counties Loader</name>
+  <description>Loads Counties for Liberia</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Evan Summers</author>
+    <email>esummers@ndi.org</email>
+  </maintainer>
+  <releaseDate>2018-12-03</releaseDate>
+  <version>1.1</version>
+  <develStage>stable</develStage>
+  <urls>
+	  <url desc="documentation">http://aghstrategies.com/counties</url>
+  </urls>
+  <compatibility>
+    <ver>4.4</ver>
+    <ver>4.5</ver>
+    <ver>4.6</ver>
+    <ver>4.7</ver>
+  </compatibility>
+  <comments>Use this extension to load Counties (Districts) for Liberia.  After installation, this extension does nothing (and can even be disabled).</comments>
+</extension>
