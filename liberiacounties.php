@@ -5,27 +5,27 @@
 function liberiacounties_listcounties() {
   $countryIso = 'LR';
   $counties = array(
-    'Chitipa' => array(
+    'Bomi' => array(
       'Chitipa East',
       'Chitipa South',
       'Chitipa Central',
       'Chitipa North',
       'Chitipa Wenya',
     ),
-    'Karonga' => array(
+    'Bong' => array(
      'Karonga North',
       'Karonga North West',
       'Karonga Central',
       'Karonga Nyungwe',
       'Karonga South',
     ),
-    'Rumphi' => array(
+    'Gbarpolu' => array(
       'Rumphi East',
       'Rumphi Central',
       'Rumphi West',
       'Rumphi North',
     ),
-    'Nkhatabay' => array(
+    'Grand Bassa' => array(
       'Nkhatabay North',
       'Nkhatabay Central',
       'Nkhatabay West',
@@ -33,13 +33,13 @@ function liberiacounties_listcounties() {
       'Nkhatabay South East',
       'Nkhatabay South',
     ),
-    'Likoma Islands' => array(
+    'Grand Cape Mount' => array(
       'Likoma Islands',
     ),
-    'Mzuzu' => array(
+    'Grand Gedeh' => array(
       'Mzuzu City',
     ),
-    'Mzimba' => array(
+    'Grand Kru' => array(
       'Mzimba North',
       'Mzimba North East',
       'Mzimba West',
@@ -52,7 +52,7 @@ function liberiacounties_listcounties() {
       'Mzimba South West',
       'Mzimba South East',
     ),
-    'Blantyre' => array(
+    'Lofa' => array(
       'Blantyre North East',
       'Blantyre Rural East',
       'Blantyre South West',
@@ -66,15 +66,15 @@ function liberiacounties_listcounties() {
       'Blantye Kabula',
       'Blantyre West',
     ),
-    'Mwanza' => array(
+    'Margibi' => array(
       'Mwanza Central',
       'Mwanza West',
     ),
-    'Neno' => array(
+    'Maryland' => array(
       'Neno South',
       'Neno North',
     ),
-    'Thyolo' => array(
+    'Montserrado' => array(
       'Thyolo North',
       'Thyolo West',
       'Thyolo Central',
@@ -83,14 +83,14 @@ function liberiacounties_listcounties() {
       'Thyolo South West',
       'Thyolo Thava',
     ),
-    'Phalombe' => array(
+    'Nimba' => array(
       'Phalombe South',
       'Phalombe Central',
       'Phalombe North',
       'Phalombe East',
       'Phalombe North East',
     ),
-    'Mulanje' => array(
+    'Rivercess' => array(
       'Mulanje South East',
       'Mulanje South',
       'Mulanje Central',
@@ -101,7 +101,7 @@ function liberiacounties_listcounties() {
       'Mulanje West',
       'Mulanje North',
     ),
-    'Kasungu' => array(
+    'River Gee' => array(
       'Kasungu North',
       'Kasungu North North East',
       'Kasungu West',
@@ -112,152 +112,12 @@ function liberiacounties_listcounties() {
       'Kasungu Central',
       'Kasungu North East',
     ),
-    'Nkhotakota' => array(
+    'Sinoe' => array(
       'Nkhotakota North',
       'Nkhotakota North East',
       'Nkhotakota Central',
       'Nkhotakota South',
       'Nkhotakota South East',
-    ),
-    'Ntchisi' => array(
-      'Ntchisi East',
-      'Ntchisi North',
-      'Ntchisi North East',
-      'Ntchisi South',
-    ),
-    'Dowa' => array(
-      'Dowa East',
-      'Dowa South East',
-      'Dowa North East',
-      'Dowa Ngala',
-      'Dowa Central',
-      'Dowa West',
-      'Dowa North',
-    ),
-    'Salima' => array(
-      'Salima North',
-      'Salima Central',
-      'Salima South',
-      'Salima South East',
-      'Salima North West',
-    ),
-    'Mchinji' => array(
-      'Mchinji North',
-      'Mchinji North East',
-      'Mchinji East',
-      'Mchinji West',
-      'Mchinji South',
-      'Mchinji South West',
-    ),
-    'Chikwawa' => array(
-      'Chikwawa South',
-      'Chikwawa Mkombezi',
-      'Chikwawa Central',
-      'Chikwawa North',
-      'Chikwawa East',
-      'Chikwawa West',
-    ),
-    'Nsanje' => array(
-      'Nsanje South',
-      'Nsanje South West',
-      'Nsanje Central',
-      'Nsanje Lalanje',
-      'Nsanje North',
-    ),
-    'Mapuyu' => array(
-      'Mapuyu North',
-      'Mapuyu South',
-    ),
-    'Lilongwe' => array(
-      'Lilongwe North',
-      'Lilongwe Msozi South',
-      'Lilongwe Msozi North',
-      'Lilongwe Kumachenga',
-      'Lilongwe North East',
-      'Lilongwe City West',
-      'Lilongwe Mpenu Nkhoma',
-      'Lilongwe Mpenu',
-      'Lilongwe South East',
-      'Lilongwe East',
-      'Lilongwe Central',
-      'Lilongwe City Centre',
-      'Lilongwe North West',
-      'Lilongwe City North',
-      'Lilongwe South West',
-      'Lilongwe City South East',
-      'Lilongwe City South West',
-      'Lilongwe South',
-    ),
-    'Msinja' => array(
-      'Msinja North',
-      'Msinja South',
-    ),
-    'Dedza' => array(
-      'Dedza North',
-      'Dedza Central',
-      'Dedza South West',
-      'Dedza North West',
-      'Dedza East',
-      'Dedza South',
-      'Dedza West',
-      'Dedza Central East',
-    ),
-    'Ntcheu' => array(
-      'Ntcheu North East',
-      'Ntcheu Bwanje North',
-      'Ntcheu Bwanje South',
-      'Ntcheu Central',
-      'Ntcheu South',
-      'Ntcheu North',
-      'Ntcheu West',
-    ),
-    'Mangochi' => array(
-      'Mangochi North',
-      'Mangochi North East',
-      'Mangochi Malombe',
-      'Mangochi East',
-      'Mangochi South',
-      'Mangochi South West',
-      'Mangochi Central',
-      'Mangochi Nkhungulu',
-      'Mangochi West',
-      'Mangochi Monkey Bay',
-      'Mangochi Lutende',
-      'Mangochi Masongola',
-    ),
-    'Balaka' => array(
-      'Balaka Central East',
-      'Balaka North',
-      'Balaka West',
-      'Balaka South',
-    ),
-    'Machinga' => array(
-      'Machinga North East',
-      'Machinga Central',
-      'Machinga Central East',
-      'Machinga East',
-      'Machinga South',
-      'Machinga Likwenu',
-      'Machinga South East',
-    ),
-    'Zomba' => array(
-      'Zomba Nsondole',
-      'Zomba Thondwe',
-      'Zomba Chingale',
-      'Zomba Changalume',
-      'Zomba Lisanjala',
-      'Zomba Malosa',
-      'Zomba Ntonya',
-      'Zomba Central',
-      'Zomba Likangala',
-      'Zomba Chisi',
-    ),
-    'Chiradzulu' => array(
-      'Chiradzulu South',
-      'Chiradzulu Central',
-      'Chiradzulu North',
-      'Chiradzulu East',
-      'Chiradzulu West',
     ),
   );
   return array($countryIso => $counties);
